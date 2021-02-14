@@ -23,7 +23,12 @@
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": ""
-      },    
+      },
+      "REDIS_URL": {
+         "description": "if you are using REDIS Sever -> REDIS_URL = redis://you-server@redis.blabla.com:1080 #1080 is port number",
+         "required": true,
+         "value": "redis://you-server@redis.blabla.com:1080"
+      },
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
