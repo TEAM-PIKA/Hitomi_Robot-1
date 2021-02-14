@@ -89,7 +89,7 @@ if ENV:
     SUPPORT_CHAT = os.environ.get('SUPPORT_CHAT', None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get('SPAMWATCH_SUPPORT_CHAT', None)
     SPAMWATCH = os.environ.get('SPAMWATCH_API', None)
-    REDIS_URL = os.environ.get('REDIS_URL', None)
+    REDIS_URL = os.environ.get("REDIS_URL")
     CUSTOM_CMD = os.environ.get('CUSTOM_CMD', ('/', '!'))
     REPOSITORY = os.environ.get('REPOSITORY', "")
     IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
