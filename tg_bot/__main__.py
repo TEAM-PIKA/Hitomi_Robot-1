@@ -30,13 +30,13 @@ Hit /help for seeing a list of available commands.
 """
 
 
-BOT_IMG = ""
+BOT_IMG = "https://telegra.ph/file/eab967ddb4e653bbc5a52.jpg"
 
 
 
 
 HELP_STRINGS = """
-*Helpful Commands :* [.]()
+*Helpful Commands :* [.](https://telegra.ph/file/cd462a5068fdb38dac4a6.jpg)
 ¤ /start: Starts me! You've probably already used this.
 ¤ /help: Sends this message; I'll tell you more about myself!
 ¤ /settings: 
